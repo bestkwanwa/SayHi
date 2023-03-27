@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SayHi'
-  s.version          = '1.0.0'
+  s.name             = 'SayHiFromElvis'
+  s.version          = '2.0.0'
   s.summary          = 'Hi~~~~'
   s.swift_version = '4.0'
 
