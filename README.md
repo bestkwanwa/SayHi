@@ -22,7 +22,7 @@ pod 'SayHi'
 
 ## Author
 
-bestkwanwa, v176juy@cathaypacific.com
+bestkwanwa, bestkwanwa@gmail.com
 
 ## License
 

@@ -1,0 +1,16 @@
+PODS:
+  - SayHi (0.1.0)
+
+DEPENDENCIES:
+  - SayHi (from `../`)
+
+EXTERNAL SOURCES:
+  SayHi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SayHi: 94b7be937da44715a75424d87d547f30b572957b
+
+PODFILE CHECKSUM: 66cd33fbbea42d7b226aa2dae99bb77599422389
+
+COCOAPODS: 1.11.3

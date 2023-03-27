@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE0A8C0FF2054713C4B5755DEFE0C97 /* Pods-SayHi_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7AE7AB4638BA1B484D8DC67A0E6B79 /* Pods-SayHi_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A913095E87C376B00FD6E04CE73325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3D2AD84F384C53E1EF1ED725D2220BFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4B7F299580C6604CD7A33B9329C88681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		888F15072F44BDAD300446F09454AE54 /* SayHi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE51D6BD1A946FA73D85BDC39C793CF5 /* SayHi-dummy.m */; };
+		91705571335F843CFDA6E4F7F934177D /* SayHi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB820008316202A90A41C7CD67784261 /* SayHi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAAF1ADF333C22B8C35092D1687652CF /* Pods-SayHi_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A01C8A7E46AFF6ECD1282352E616F7F7 /* Pods-SayHi_Tests-dummy.m */; };
+		C318A5D050289CE909B4182F5D11A926 /* Pods-SayHi_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0920DC49B5EDC5960D8465A95D246137 /* Pods-SayHi_Example-dummy.m */; };
+		DFA352C421AEB69A7D34F8244650A6A5 /* Pods-SayHi_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E4ABFD6372CDF34E4C900E4F4F780E /* Pods-SayHi_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1DC46A2DAD192FE837FBCB9ADD049CE /* SayHi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F67D2DE8323FCD1F5EBE2F3100D3ED /* SayHi.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E0699A4F2CBA4495ABD3EB78030B214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 771AF78DA28C2199DDFCE86D90D902D8;
+			remoteInfo = SayHi;
+		};
+		FE98161C7F6410BF48CAA9EDDFB1ED7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C7F5E37E7A4283772DAC9E8AB42068;
+			remoteInfo = "Pods-SayHi_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0920DC49B5EDC5960D8465A95D246137 /* Pods-SayHi_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SayHi_Example-dummy.m"; sourceTree = "<group>"; };
+		17D00ED7E516D489A11378DD0A3B9DFA /* Pods_SayHi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SayHi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F1978401BC152ED35667135F26197 /* Pods-SayHi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SayHi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		358054D8070231D013F5B676A5414ADE /* Pods-SayHi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SayHi_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		372BCF9988C584158AEB3632C8D6C040 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F91BC8651DC5F562B3FD1751E90F292 /* SayHi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SayHi.modulemap; sourceTree = "<group>"; };
+		4B504FFA400AE008AAC22C39B2F02868 /* Pods-SayHi_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SayHi_Tests-Info.plist"; sourceTree = "<group>"; };
+		5A30584091DD125E5E7B2C80956057B6 /* SayHi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SayHi.debug.xcconfig; sourceTree = "<group>"; };
+		5C7AE7AB4638BA1B484D8DC67A0E6B79 /* Pods-SayHi_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SayHi_Example-umbrella.h"; sourceTree = "<group>"; };
+		7074ED4E0438C12870EF36822B1DB5B7 /* Pods-SayHi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SayHi_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76445695F80C2BD3C0FE5F0B5CC27A1F /* Pods-SayHi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SayHi_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		79CA79AF6F1B9562F5315E9D91CD9AB2 /* Pods-SayHi_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SayHi_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		823460C2461EC7E28C21A0ACC7C1160B /* Pods-SayHi_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SayHi_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84F67D2DE8323FCD1F5EBE2F3100D3ED /* SayHi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SayHi.swift; path = SayHi/Classes/SayHi.swift; sourceTree = "<group>"; };
+		9AD153A40EE4FD0A636AF5CE02D8CA25 /* SayHi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SayHi-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A01C8A7E46AFF6ECD1282352E616F7F7 /* Pods-SayHi_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SayHi_Tests-dummy.m"; sourceTree = "<group>"; };
+		A376621B1CFB57EA1444E1578B3B0E5F /* Pods-SayHi_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SayHi_Example.modulemap"; sourceTree = "<group>"; };
+		A6EA33FDBEE778F1CA86846B68BDC07E /* SayHi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SayHi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A831EF333995B0D257F3AB45B5B3217A /* Pods-SayHi_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SayHi_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AC70397D1727B5FCEA46964E9287877A /* SayHi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SayHi-Info.plist"; sourceTree = "<group>"; };
+		AE51D6BD1A946FA73D85BDC39C793CF5 /* SayHi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SayHi-dummy.m"; sourceTree = "<group>"; };
+		BA1C4D94A10F9372650CD0043C3765D1 /* SayHi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SayHi.release.xcconfig; sourceTree = "<group>"; };
+		C2B1A81BF09BC9D09075A26CF6C9E14F /* Pods-SayHi_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SayHi_Tests.modulemap"; sourceTree = "<group>"; };
+		C2E4ABFD6372CDF34E4C900E4F4F780E /* Pods-SayHi_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SayHi_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C36FFAB6C39F7A48B01BD14F0496A80E /* SayHi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SayHi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC347717B958B5C2695663723CC77C11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DF113EB210DDA2311CDB6B442A5D236C /* Pods_SayHi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SayHi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA60A0E77B42B6182049D46C061F99A0 /* Pods-SayHi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SayHi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB820008316202A90A41C7CD67784261 /* SayHi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SayHi-umbrella.h"; sourceTree = "<group>"; };
+		F51A163DE5753AA812A1A7EADB90C595 /* Pods-SayHi_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SayHi_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F786265C1AECBCE9D2CFAE0E91F85BA6 /* Pods-SayHi_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SayHi_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E8F7FB9A56324BC080EDF22040694CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A913095E87C376B00FD6E04CE73325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7F0AEF00BCD4502CAADCE702EC2C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2AD84F384C53E1EF1ED725D2220BFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49604B8D910573AC9B68522E0473700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7F299580C6604CD7A33B9329C88681 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20A014A770090C9A8F7D587171503AB8 /* Pods-SayHi_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2B1A81BF09BC9D09075A26CF6C9E14F /* Pods-SayHi_Tests.modulemap */,
+				184F1978401BC152ED35667135F26197 /* Pods-SayHi_Tests-acknowledgements.markdown */,
+				823460C2461EC7E28C21A0ACC7C1160B /* Pods-SayHi_Tests-acknowledgements.plist */,
+				A01C8A7E46AFF6ECD1282352E616F7F7 /* Pods-SayHi_Tests-dummy.m */,
+				4B504FFA400AE008AAC22C39B2F02868 /* Pods-SayHi_Tests-Info.plist */,
+				C2E4ABFD6372CDF34E4C900E4F4F780E /* Pods-SayHi_Tests-umbrella.h */,
+				EA60A0E77B42B6182049D46C061F99A0 /* Pods-SayHi_Tests.debug.xcconfig */,
+				358054D8070231D013F5B676A5414ADE /* Pods-SayHi_Tests.release.xcconfig */,
+			);
+			name = "Pods-SayHi_Tests";
+			path = "Target Support Files/Pods-SayHi_Tests";
+			sourceTree = "<group>";
+		};
+		45EBA37D14BFF0F42156224D48797AC6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CC347717B958B5C2695663723CC77C11 /* LICENSE */,
+				372BCF9988C584158AEB3632C8D6C040 /* README.md */,
+				A6EA33FDBEE778F1CA86846B68BDC07E /* SayHi.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4E5246F493360775FDD84B34D6D0FC64 /* SayHi */ = {
+			isa = PBXGroup;
+			children = (
+				84F67D2DE8323FCD1F5EBE2F3100D3ED /* SayHi.swift */,
+				45EBA37D14BFF0F42156224D48797AC6 /* Pod */,
+				F843EAD19490BE4EDA021107D8A91EE9 /* Support Files */,
+			);
+			name = SayHi;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		53A8915516139D8312C38C864E268E1F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E5246F493360775FDD84B34D6D0FC64 /* SayHi */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		757CABB513CA5C0806A43EC41A31ABA7 /* Pods-SayHi_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A376621B1CFB57EA1444E1578B3B0E5F /* Pods-SayHi_Example.modulemap */,
+				F51A163DE5753AA812A1A7EADB90C595 /* Pods-SayHi_Example-acknowledgements.markdown */,
+				79CA79AF6F1B9562F5315E9D91CD9AB2 /* Pods-SayHi_Example-acknowledgements.plist */,
+				0920DC49B5EDC5960D8465A95D246137 /* Pods-SayHi_Example-dummy.m */,
+				A831EF333995B0D257F3AB45B5B3217A /* Pods-SayHi_Example-frameworks.sh */,
+				F786265C1AECBCE9D2CFAE0E91F85BA6 /* Pods-SayHi_Example-Info.plist */,
+				5C7AE7AB4638BA1B484D8DC67A0E6B79 /* Pods-SayHi_Example-umbrella.h */,
+				76445695F80C2BD3C0FE5F0B5CC27A1F /* Pods-SayHi_Example.debug.xcconfig */,
+				7074ED4E0438C12870EF36822B1DB5B7 /* Pods-SayHi_Example.release.xcconfig */,
+			);
+			name = "Pods-SayHi_Example";
+			path = "Target Support Files/Pods-SayHi_Example";
+			sourceTree = "<group>";
+		};
+		B48A28A3836DCFD624851DC2D595CAFC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				757CABB513CA5C0806A43EC41A31ABA7 /* Pods-SayHi_Example */,
+				20A014A770090C9A8F7D587171503AB8 /* Pods-SayHi_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				53A8915516139D8312C38C864E268E1F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E7DFDAAA12DFE3DBB78679C0F575F867 /* Products */,
+				B48A28A3836DCFD624851DC2D595CAFC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7DFDAAA12DFE3DBB78679C0F575F867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D00ED7E516D489A11378DD0A3B9DFA /* Pods_SayHi_Example.framework */,
+				DF113EB210DDA2311CDB6B442A5D236C /* Pods_SayHi_Tests.framework */,
+				C36FFAB6C39F7A48B01BD14F0496A80E /* SayHi.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F843EAD19490BE4EDA021107D8A91EE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F91BC8651DC5F562B3FD1751E90F292 /* SayHi.modulemap */,
+				AE51D6BD1A946FA73D85BDC39C793CF5 /* SayHi-dummy.m */,
+				AC70397D1727B5FCEA46964E9287877A /* SayHi-Info.plist */,
+				9AD153A40EE4FD0A636AF5CE02D8CA25 /* SayHi-prefix.pch */,
+				EB820008316202A90A41C7CD67784261 /* SayHi-umbrella.h */,
+				5A30584091DD125E5E7B2C80956057B6 /* SayHi.debug.xcconfig */,
+				BA1C4D94A10F9372650CD0043C3765D1 /* SayHi.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SayHi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		047A6A200810D1B8F17CE5EBCBACF828 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA352C421AEB69A7D34F8244650A6A5 /* Pods-SayHi_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF1FC7F71DA04289ADEE2F9F42F390F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE0A8C0FF2054713C4B5755DEFE0C97 /* Pods-SayHi_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD0C5BE508726B843B6D18078122D68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91705571335F843CFDA6E4F7F934177D /* SayHi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		771AF78DA28C2199DDFCE86D90D902D8 /* SayHi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D0E28CE68FAD939483F211B65012FB /* Build configuration list for PBXNativeTarget "SayHi" */;
+			buildPhases = (
+				FDD0C5BE508726B843B6D18078122D68 /* Headers */,
+				9AEA8FC58FE88134F878250D36AA84F3 /* Sources */,
+				EF7F0AEF00BCD4502CAADCE702EC2C02 /* Frameworks */,
+				EBB8C0CC2662F474AB46CA6CA953E7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayHi;
+			productName = SayHi;
+			productReference = C36FFAB6C39F7A48B01BD14F0496A80E /* SayHi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE382CAF9DEA01D07345A9386B298C63 /* Pods-SayHi_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BFDA8CB26B793E5B2F03AF5AB2F2F2 /* Build configuration list for PBXNativeTarget "Pods-SayHi_Tests" */;
+			buildPhases = (
+				047A6A200810D1B8F17CE5EBCBACF828 /* Headers */,
+				9D46A14A93AF6D7E36C97155C6EEF62F /* Sources */,
+				8E8F7FB9A56324BC080EDF22040694CB /* Frameworks */,
+				E5035F833791C7FC2F40291E94589BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				310F63E1DAD8981738062863D384BB26 /* PBXTargetDependency */,
+			);
+			name = "Pods-SayHi_Tests";
+			productName = Pods_SayHi_Tests;
+			productReference = DF113EB210DDA2311CDB6B442A5D236C /* Pods_SayHi_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9C7F5E37E7A4283772DAC9E8AB42068 /* Pods-SayHi_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97112AA825B4F9B9AFB6F40683EEBFA /* Build configuration list for PBXNativeTarget "Pods-SayHi_Example" */;
+			buildPhases = (
+				9EF1FC7F71DA04289ADEE2F9F42F390F /* Headers */,
+				560117570410C393B7A9A57FB4D56780 /* Sources */,
+				F49604B8D910573AC9B68522E0473700 /* Frameworks */,
+				99C17918762A66994BF0E597A79F85B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C23B21E291EE9005F7987DA6C88F85A /* PBXTargetDependency */,
+			);
+			name = "Pods-SayHi_Example";
+			productName = Pods_SayHi_Example;
+			productReference = 17D00ED7E516D489A11378DD0A3B9DFA /* Pods_SayHi_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E7DFDAAA12DFE3DBB78679C0F575F867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9C7F5E37E7A4283772DAC9E8AB42068 /* Pods-SayHi_Example */,
+				AE382CAF9DEA01D07345A9386B298C63 /* Pods-SayHi_Tests */,
+				771AF78DA28C2199DDFCE86D90D902D8 /* SayHi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99C17918762A66994BF0E597A79F85B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5035F833791C7FC2F40291E94589BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB8C0CC2662F474AB46CA6CA953E7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		560117570410C393B7A9A57FB4D56780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C318A5D050289CE909B4182F5D11A926 /* Pods-SayHi_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEA8FC58FE88134F878250D36AA84F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DC46A2DAD192FE837FBCB9ADD049CE /* SayHi.swift in Sources */,
+				888F15072F44BDAD300446F09454AE54 /* SayHi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D46A14A93AF6D7E36C97155C6EEF62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAAF1ADF333C22B8C35092D1687652CF /* Pods-SayHi_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		310F63E1DAD8981738062863D384BB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SayHi_Example";
+			target = B9C7F5E37E7A4283772DAC9E8AB42068 /* Pods-SayHi_Example */;
+			targetProxy = FE98161C7F6410BF48CAA9EDDFB1ED7E /* PBXContainerItemProxy */;
+		};
+		8C23B21E291EE9005F7987DA6C88F85A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SayHi;
+			target = 771AF78DA28C2199DDFCE86D90D902D8 /* SayHi */;
+			targetProxy = 2E0699A4F2CBA4495ABD3EB78030B214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07C692ED54CD06D012D774EA2150B102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76445695F80C2BD3C0FE5F0B5CC27A1F /* Pods-SayHi_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SayHi_Example/Pods-SayHi_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SayHi_Example/Pods-SayHi_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31EE409B7A3AD0F82D3219490E1FCD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1C4D94A10F9372650CD0043C3765D1 /* SayHi.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SayHi/SayHi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SayHi/SayHi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SayHi/SayHi.modulemap";
+				PRODUCT_MODULE_NAME = SayHi;
+				PRODUCT_NAME = SayHi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		585D41BB385C85357E735A6CDFCF4C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358054D8070231D013F5B676A5414ADE /* Pods-SayHi_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SayHi_Tests/Pods-SayHi_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SayHi_Tests/Pods-SayHi_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58A3A2D0B8481C3C0D0890D29518623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7074ED4E0438C12870EF36822B1DB5B7 /* Pods-SayHi_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SayHi_Example/Pods-SayHi_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SayHi_Example/Pods-SayHi_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D07B64A8E925BAC4D541C32BD62F32D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA60A0E77B42B6182049D46C061F99A0 /* Pods-SayHi_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SayHi_Tests/Pods-SayHi_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SayHi_Tests/Pods-SayHi_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1EF1F8AE012F2365BD6017258E93F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A30584091DD125E5E7B2C80956057B6 /* SayHi.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SayHi/SayHi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SayHi/SayHi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SayHi/SayHi.modulemap";
+				PRODUCT_MODULE_NAME = SayHi;
+				PRODUCT_NAME = SayHi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D0E28CE68FAD939483F211B65012FB /* Build configuration list for PBXNativeTarget "SayHi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EF1F8AE012F2365BD6017258E93F97 /* Debug */,
+				31EE409B7A3AD0F82D3219490E1FCD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BFDA8CB26B793E5B2F03AF5AB2F2F2 /* Build configuration list for PBXNativeTarget "Pods-SayHi_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07B64A8E925BAC4D541C32BD62F32D4 /* Debug */,
+				585D41BB385C85357E735A6CDFCF4C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97112AA825B4F9B9AFB6F40683EEBFA /* Build configuration list for PBXNativeTarget "Pods-SayHi_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C692ED54CD06D012D774EA2150B102 /* Debug */,
+				58A3A2D0B8481C3C0D0890D29518623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

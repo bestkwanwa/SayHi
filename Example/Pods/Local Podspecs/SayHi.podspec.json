@@ -1,0 +1,22 @@
+{
+  "name": "SayHi",
+  "version": "0.1.0",
+  "summary": "A short description of SayHi.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bestkwanwa/SayHi",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bestkwanwa": "v176juy@cathaypacific.com"
+  },
+  "source": {
+    "git": "https://github.com/bestkwanwa/SayHi.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SayHi/Classes/**/*"
+}
